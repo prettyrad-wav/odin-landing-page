@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper-main {
-    width: 1000px;
+    width: 1200px;
     height: 100vh;
     margin: 0 auto;
 }
@@ -41,4 +41,49 @@ header {
 li {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px 100px 100px;
+    gap: 40px;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.hero-img {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #656669ff;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p {
+   color: #e5e7eb;
+   font-size: 18px; 
+   margin: 0;
+}
+
+button {
+    margin-top: 5px;
+    color: #e5e7eb;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
