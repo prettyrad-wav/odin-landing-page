@@ -2,3 +2,43 @@
     font-family: roboto;
     src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
+
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.wrapper-main {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin-top: 0;
+    height: 60px;
+    padding: 0 100px;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
